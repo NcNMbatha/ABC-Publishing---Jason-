@@ -1,0 +1,9 @@
+﻿@model ABCPublication.Web.Models.WebPageViewModel
+
+@{
+    ViewData["Title"] = @Model.Title;
+}
+
+@{
+    Html.RenderPartial("_PageContent", Model);
+}
